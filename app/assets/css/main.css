@@ -138,6 +138,35 @@ a {
   margin-bottom: 1.5rem;
 }
 
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-left: 1px solid var(--border-subtle);
+  padding-left: 1rem;
+  margin-left: 0.5rem;
+}
+
+.nav-header {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 0.5rem;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
 label {
   display: block;
   margin-bottom: 0.5rem;

@@ -47,15 +47,7 @@ const handleSubmit = () => {
         <textarea v-model="form.description" rows="3"></textarea>
       </div>
 
-      <div class="grid grid-cols-3">
-        <div class="form-group">
-          <label>Type</label>
-          <select v-model="form.type">
-            <option value="DungeonCompletion">Dungeon Completion</option>
-            <option value="CombatWon">Combat Won</option>
-          </select>
-        </div>
-
+      <div class="grid grid-cols-2">
         <div class="form-group">
           <label>Target Count</label>
           <input type="number" v-model="form.targetCount" required min="1" />

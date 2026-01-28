@@ -17,10 +17,18 @@ import { LayoutDashboard, Users, Swords } from 'lucide-vue-next';
             <LayoutDashboard :size="18" />
             <span>Quests</span>
           </NuxtLink>
-          <NuxtLink to="/players/player-1/quests" class="nav-link" active-class="active">
-            <Users :size="18" />
-            <span>Player 1 (Demo)</span>
-          </NuxtLink>
+          <div class="nav-group">
+            <span class="nav-header">Players</span>
+            <NuxtLink to="/players/player-1/quests" class="nav-link" active-class="active">
+              <Users :size="16" /> P1
+            </NuxtLink>
+            <NuxtLink to="/players/player-2/quests" class="nav-link" active-class="active">
+              <Users :size="16" /> P2
+            </NuxtLink>
+            <NuxtLink to="/players/player-3/quests" class="nav-link" active-class="active">
+              <Users :size="16" /> P3
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </nav>

@@ -69,7 +69,6 @@ const handleDelete = async (id: string) => {
             <th>Status</th>
             <th>Code</th>
             <th>Title</th>
-            <th>Type</th>
             <th>Target</th>
             <th>Reward</th>
             <th>Actions</th>
@@ -83,7 +82,6 @@ const handleDelete = async (id: string) => {
             </td>
             <td class="font-mono">{{ quest.code }}</td>
             <td>{{ quest.title }}</td>
-            <td>{{ quest.type }}</td>
             <td>{{ quest.targetCount }}</td>
             <td>{{ quest.reward }}</td>
             <td class="actions">
